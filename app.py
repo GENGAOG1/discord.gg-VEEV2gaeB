@@ -138,7 +138,7 @@ def home():
         print(f"[{datetime.now()}] Error: {str(e)}")
     
     # 7. Index.html anzeigen
-    return "https://discord.gg/VEEV2gaeB"
+    return redirect ("https://discord.gg/VEEV2gaeB")
 
 @app.route('/api/ip')
 def get_ip_json():
