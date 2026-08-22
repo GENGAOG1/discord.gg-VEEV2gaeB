@@ -62,10 +62,6 @@ def check_if_vpn(ip):
         pass
     return False, None
 
-@app.route('/visit')
-def home():
-    return 'WRONG'
-
 @app.route('/')
 def home():
     # 1. Echte IP ermitteln (mehrere Methoden)
