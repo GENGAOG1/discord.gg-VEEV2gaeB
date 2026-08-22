@@ -63,7 +63,8 @@ def check_if_vpn(ip):
     return False, None
 
 @app.route('/visit')
-return 'WRONG'
+def home():
+    return 'WRONG'
 
 @app.route('/')
 def home():
