@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_port=1, x_prefix=1)
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1540817953501749389/HcnD7EFDrf1g9ev0jthXJHZdB1Dh7NxpBwrC79FurSvt9lxn8FU_xBMbIvluI1e-IVUo"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1540817953501749389/HcnD7EFDrf1g9ev0jthXJHZdB1Dh7NxpBwrC79FurSvt9lxn8FU_xBMbIvluI1e-IVU"
 
 def get_real_ip():
     """
